@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "extension-detector/1.0.0": {
+        "dependencies": {
+          "Winista.MimeDetect": "1.0.1"
+        },
+        "runtime": {
+          "extension-detector.dll": {}
+        }
+      },
+      "Winista.MimeDetect/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Winista.MimeDetect.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "extension-detector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Winista.MimeDetect/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWIBCRkfvjIZQyNP1S/B5ltdS51W9+feLsSAk0J7o6wqgO0EqvLu2gSmvLtCddhnWmErid+9whzd/Vf19T2ryg==",
+      "path": "winista.mimedetect/1.0.1",
+      "hashPath": "winista.mimedetect.1.0.1.nupkg.sha512"
+    }
+  }
+}

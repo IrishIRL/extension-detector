@@ -1,0 +1,15 @@
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.csprojAssemblyReference.cache
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.AssemblyInfoInputs.cache
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.AssemblyInfo.cs
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\extension-detector.exe
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\extension-detector.deps.json
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\extension-detector.runtimeconfig.json
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\extension-detector.runtimeconfig.dev.json
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\extension-detector.dll
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\extension-detector.pdb
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.dll
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.pdb
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.genruntimeconfig.cache
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.csproj.CopyComplete
+D:\Visual Studio Apps\extension-detector\extension-detector\obj\Debug\netcoreapp3.1\extension-detector.csproj.CoreCompileInputs.cache
+D:\Visual Studio Apps\extension-detector\extension-detector\bin\Debug\netcoreapp3.1\Winista.MimeDetect.dll

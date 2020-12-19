@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ya81qmhT9JDtWc+sicOulCrmGq/bWoy3LRCaIhaZBY7SFWU5P9IqoCzrx2q9SXWpcNBOxxsTaaKSan2eyNzawA==",
+  "success": true,
+  "projectFilePath": "D:\\Visual Studio Apps\\extension-detector\\extension-detector\\extension-detector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mark\\.nuget\\packages\\winista.mimedetect\\1.0.1\\winista.mimedetect.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
