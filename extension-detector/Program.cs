@@ -10,22 +10,26 @@ namespace extension_detector
     {
         static void Main(string[] args)
         {
-            
-            Console.WriteLine("Hello " + Environment.UserName + "!\nPlease extract the folder random_files to the same folder this file is in.\nWhen done press Enter.");
-            Console.ReadLine();
-
-
-            var fileCount = (from file in Directory.EnumerateFiles("random_files/", "", SearchOption.AllDirectories)
-                             select file).Count();
-
-            Console.WriteLine("The amount of containing no extension: " + fileCount);
-            Console.ReadLine();
 
             int i;
             int x = 10;
-            string dir = "random_files/file";
-            System.IO.Directory.CreateDirectory("detected_files");
-            string newdir = "detected_files/file";
+            string directory, newdirectory;
+            //Console.WriteLine("Hello " + Environment.UserName + "!\nPlease put the folder random_files to the same folder this file is in.\nWhen done press Enter.");
+            Console.WriteLine("Hello " + Environment.UserName + "!\nPlease type full path to the folder where files are stored (you can name your folder as you wish).\nFor example: C:\\Users\\Mark\\Desktop\\random_files");
+            directory = Console.ReadLine();
+            Console.WriteLine("\nPlease choose the folder to save new files. (Or just click enter to save in the same place, where this application is.):");
+            newdirectory = Console.ReadLine();
+
+            string dir = directory + "/file";
+            System.IO.Directory.CreateDirectory(newdirectory + "/detected_files");
+            string newdir = newdirectory + "/detected_files/file";
+            var fileCount = (from file in Directory.EnumerateFiles(directory + "/", "", SearchOption.AllDirectories)
+                             select file).Count();
+
+            Console.WriteLine("\nThe amount of containing no extension: " + fileCount);
+            Console.ReadLine();
+
+           
 
             for (i = 1; i < fileCount; i++)
             {
